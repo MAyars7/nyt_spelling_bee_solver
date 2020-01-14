@@ -22,9 +22,9 @@ def solve_nyc_spelling_bee(puzzle_letters, jumble_dict):
                 sorted_comb = ''.join(sorted(comb)).lower()
                 unjumbled_words = (sorted_comb, jumble_dict.get(sorted_comb))[1]
                 if unjumbled_words:
-                    result_words += unjumbled_words
+                    solution_words += unjumbled_words
 
-        solution_words = sorted(set(result_words),key=len)
+        solution_words = sorted(set(solution_words),key=len)
 
     return(solution_words)
 
@@ -89,6 +89,6 @@ if __name__ == "__main__":
         print('Writing output to %s' % output_path)
 
         with open(output_path, 'w') as f:
-            f.write('PUzzle Solution:\n')
+            f.write('Puzzle Solution:\n')
             for word in result_words:
                 f.write('%s\n' % word)
