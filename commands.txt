@@ -1,0 +1,6 @@
+#Generate a jumble dict from word list text file
+python generate_jumble_dict.py --input_word_list=jumble_dicts/jumble_dict_word_list.txt
+
+#Solve NYT spelling bee puzzle
+
+
