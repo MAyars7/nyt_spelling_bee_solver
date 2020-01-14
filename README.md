@@ -20,4 +20,8 @@ Players are asked to generate as many English words as possible from a set of 7 
     Longer words earn 1 point per letter.
     Each puzzle includes at least one “pangram” which uses every letter. These are worth 7 extra points!
 
+# To-do
 
+    -Allow users to interactively add or remove words to legal words.
+    -Find an archive of puzzle solutions and analyze trends.  I'm curious if we can infer the rules for puzzle creation: number of possible words required, vowel/consanant distribution, letter frequency over time, etc.
+    -Add graphical interface.
