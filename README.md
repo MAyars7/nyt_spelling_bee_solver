@@ -5,7 +5,7 @@ To run nyt_spelling_bee_solver:
     
     python3 nyt_spelling_bee_solver.py jumble_dicts/jumble_dict.json OWDRIFT
     
-The first letter is the center letter of the puzzle which must be used in every word.
+The first letter of the query is the center letter of the puzzle which must be used in every word.
 
 # Rules
 
@@ -24,4 +24,3 @@ Players are asked to generate as many English words as possible from a set of 7 
 
     -Allow users to interactively add or remove words to legal words.
     -Find an archive of puzzle solutions and analyze trends.  I'm curious if we can infer the rules for puzzle creation: number of possible words required, vowel/consanant distribution, letter frequency over time, etc.
-    -Add graphical interface.
