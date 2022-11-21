@@ -244,7 +244,7 @@ tensorflow==1.15.2
 tensorflow-addons==0.6.0
 tensorflow-datasets==1.2.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==2.0.1
+tensorflow-gpu==2.9.3
 tensorflow-hub==0.7.0
 tensorflow-metadata==0.14.0
 termcolor==1.1.0
